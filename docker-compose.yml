@@ -1,0 +1,6 @@
+version: "2"
+services:
+    streamboard-subscriptions-socket-server:
+        build: .
+        ports:
+          - "5555:3000"
